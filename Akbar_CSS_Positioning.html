@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Belajar Navigation</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    .navbar {
+      background-color:   rgb(0, 140, 255);
+      overflow: hidden;
+      position: fixed;
+      top: 0;
+      width: 100%;
+      z-index: 1000;
+    }
+
+    .navbar a {
+      float: left;
+      display: block;
+      color: rgb(205, 17, 17)
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+
+    .navbar a:hover {
+      background-color:  rgb(127, 167, 236);
+      color: rgb(236, 228, 228);
+    }
+
+    .content {
+      padding: 16px;
+      margin-top: 50px; /* Sesuaikan dengan tinggi navigasi */
+      background:  rgb(0, 140, 255);
+    }
+
+    h1 {
+      color: #ffffff;
+    }
+
+    /* Konten panjang untuk memungkinkan scrolling */
+    .long-content {
+      height: 1500px;
+    }
+
+    [data-cita] {
+            background-color: rgb(140, 255, 0);
+    }
+  </style>
+</head>
+<body>
+  <div class="navbar">
+    <a href="#" data-cita="berani">Programs</a>
+    <a href="#" data-cita="berani">School Solutions</a>
+    <a href="#" data-cita="berani">Corporate Solutions</a>
+    <a href="#" data-cita="berani">Hub</a>
+    <a href="#" data-cita="berani">Search</a>
+  </div>
+
+  <div id="Programs" class="content">
+    <h1>Raih Masa Depan Brilian<br>dengan Optimasi Skill Digital</h1>
+    <p>GAMELAB.ID membantumu mengoptimalkan skill agar siap kerja melalui <br>program pelatihan, magang online, dan kelas intensif yang diampu oleh para <br>profesional di bidangnya.</p>
+    <!-- Isi konten lainnya -->
+
+  <!-- Konten panjang untuk memungkinkan scrolling -->
+  <div class="long-content"></div>
+
+</body>
+</html>
